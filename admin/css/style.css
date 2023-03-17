@@ -1,0 +1,58 @@
+#timeout {
+    width: 100px;
+    margin-top: 10px;
+}
+
+#phpinit {
+    margin-left: 40px;
+    color: #aaaaaa;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#editor {
+    width: 90%;
+    height: 400px;
+}
+
+#result {
+    width: 90%;
+    height: 400px;
+    background-color: beige;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: scroll;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight:normal;
+}
+
+.exectime {
+    margin-top: 10px;
+}
+
+.exectime th {
+    background-color: rgb(164, 242, 242);
+    padding: 8px;
+}
+
+.exectime td {
+    background-color: rgb(176, 172, 227);
+    padding: 8px;
+}
+
+#loading {
+    margin-top: 20px;
+    display: none;
+}
+
+#loading img {
+    opacity: 1;
+}
+
+#saved {
+    display: none;
+}
+

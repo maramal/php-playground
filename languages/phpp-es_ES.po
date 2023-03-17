@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP Playground\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "These settings won't affect your WordPress PHP settings."
+msgstr "Estas configuraciones no afectarán tus ajustes de PHP en WordPress."
+
+msgid "Theme:"
+msgstr "Tema:"
+
+msgid "Max. Execution Time (milliseconds):"
+msgstr "Tiempo máximo de ejecución (milisegundos):"
+
+msgid "Apply changes"
+msgstr "Aplicar cambios"
+
+msgid "Caution: The usage of this plugin could lead to harm the site. Use it under your own risk."
+msgstr "Precaución: El uso de este plugin podría dañar el sitio. Úselo bajo su propio riesgo."
+
+msgid "Run"
+msgstr "Ejecutar"
+
+msgid "Result:"
+msgstr "Resultado:"
+
+msgid "Execution Time:"
+msgstr "Tiempo de ejecución:"
+
+msgid "Output Length:"
+msgstr "Longitud de la salida:"
+
+msgid "Execution time exceeded timeout."
+msgstr "El tiempo de ejecución excedió el límite de tiempo."
+
+msgid "<b>Request Error:</b>"
+msgstr "<b>Error en la solicitud:</b>"
+
+msgid "Uncaught"
+msgstr "No capturado"
+
+msgid "Settings"
+msgstr "Ajustes"
