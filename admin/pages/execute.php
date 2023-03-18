@@ -8,8 +8,6 @@ require WP_PLUGIN_DIR . '/php-playground/vendor/autoload.php';
 $output = [];
 $data = json_decode( file_get_contents( "php://input" ), true );
 
-var_dump($data); die;
-
 // Remove E_WARNING from output
 error_reporting(E_ALL ^ E_WARNING);
 ini_set('display_errors', true);

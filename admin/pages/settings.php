@@ -14,8 +14,8 @@ wp_enqueue_script('phpp-cookies-js', plugins_url('js/cookies.js', dirname(__FILE
         <div class="form-field">
             <label for="theme"><?php _e('Theme:', 'phpp'); ?></label>
             <select id="theme" name="theme">
-                <option value="twilight">Twilight</option>
-                <option value="monokai">Monokai</option>
+                <option value="vs-dark">Dark</option>
+                <option value="vs">Light</option>
             </select>
         </div>
 

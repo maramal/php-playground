@@ -50,3 +50,6 @@ msgstr "No capturado"
 
 msgid "Settings"
 msgstr "Ajustes"
+
+msgid "This plugin is intended for administration usage only."
+msgstr "Esta extensión puede ser utilizada sólo por administradores."
