@@ -11,48 +11,101 @@
     font-weight: normal;
 }
 
-#editor {
-    width: 90%;
-    height: 400px;
-}
-
 #result {
     width: 90%;
     height: 400px;
     background-color: beige;
     box-shadow: 1px 1px 5px #aaaaaa;
-    margin-top: 20px;
     padding: 10px;
     overflow: scroll;
     font-family: monospace;
     font-size: 16px;
-    font-weight:normal;
+    font-weight: normal;
+    position: relative;
 }
 
-.exectime {
+.metrics {
+    width: 200px;
     margin-top: 10px;
 }
 
-.exectime th {
+.metrics th {
+    text-align: left;
     background-color: rgb(164, 242, 242);
     padding: 8px;
 }
 
-.exectime td {
+.metrics td {
     background-color: rgb(176, 172, 227);
     padding: 8px;
 }
 
 #loading {
-    margin-top: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
     display: none;
-}
-
-#loading img {
-    opacity: 1;
 }
 
 #saved {
     display: none;
 }
 
+.code {
+    font-family: monospace;
+    background-color: #dddddd;
+    padding: 1px 3px;
+}
+
+.editor {
+    width: 50vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.view {
+    position: absolute;
+    right: 10px;
+}
+
+.view img {
+    width: 10px;
+    height: 8px;
+}
+
+.view .selected {
+    background-color: green;
+}
+
+.view button:active {
+    background-color: green;
+}
+
+.horizontal-view .col {
+    width: 50%;
+}
+
+.vertical-view .col {
+    width: 100%;
+}

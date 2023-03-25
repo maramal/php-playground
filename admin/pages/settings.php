@@ -1,6 +1,12 @@
 <?php
 wp_enqueue_style('phpp-css', plugins_url('css/style.css', dirname(__FILE__)));
 wp_enqueue_script('phpp-cookies-js', plugins_url('js/cookies.js', dirname(__FILE__)));
+
+// Check if user is allowed to access settings
+if (!current_user_can('manage_options')) {
+    echo '<div class="notice notice-error"><p>' . _e('This plugin is intended for administration usage only.', 'phpp') . '</p></div>';
+    exit(401);
+}
 ?>
 
 <div class="wrap">
@@ -34,7 +40,7 @@ wp_enqueue_script('phpp-cookies-js', plugins_url('js/cookies.js', dirname(__FILE
         let timeout = getCookie('wp-phpp-timeout');
 
         if (theme === null) {
-            theme = 'twilight';
+            theme = 'vs-dark';
         }
 
         if (timeout === null) {
